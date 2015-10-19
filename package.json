@@ -1,0 +1,46 @@
+{
+  "name": "testium-mocha",
+  "version": "0.0.0",
+  "description": "Mocha integration for testium",
+  "main": "lib/testium-mocha.js",
+  "scripts": {
+    "test": "eslint lib test && mocha",
+    "posttest": "npub verify"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testiumjs/testium-mocha.git"
+  },
+  "keywords": [
+    "testium",
+    "selenium",
+    "mocha",
+    "integration",
+    "test"
+  ],
+  "author": "Jan Krems <jan.krems@groupon.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/testiumjs/testium-mocha/issues"
+  },
+  "homepage": "https://github.com/testiumjs/testium-mocha#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "license": {
+      "exclude": [
+        "."
+      ]
+    }
+  },
+  "devDependencies": {
+    "babel-core": "~5.8.25",
+    "babel-eslint": "~4.1.3",
+    "eslint": "~1.7.2",
+    "eslint-config-airbnb": "~0.1.0",
+    "mocha": "~2.3.3",
+    "npub": "~2.2.0"
+  }
+}
