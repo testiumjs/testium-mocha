@@ -48,7 +48,7 @@
     "debug": "^2.2.0",
     "lodash": "^3.10.1",
     "mkdirp": "~0.5.1",
-    "testium-core": "testiumjs/testium-core#jk-driver-factory",
-    "testium-driver-sync": "testiumjs/testium-driver-sync#jk-cleanup"
+    "testium-core": "^1.3.0",
+    "testium-driver-sync": "^2.0.0"
   }
 }
