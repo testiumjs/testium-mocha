@@ -1,6 +1,6 @@
 {
   "name": "testium-mocha",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Mocha integration for testium",
   "main": "lib/testium-mocha.js",
   "scripts": {
