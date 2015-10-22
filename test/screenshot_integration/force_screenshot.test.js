@@ -5,7 +5,7 @@ describe('forced screenshot', () => {
   before(browser.beforeHook());
 
   it('my test', () => {
-    this.browser.navigateTo('/');
+    browser.navigateTo('/');
     // This is supposed to be failing, the real status code is 200
     assert.equal('statuscode', 418, browser.getStatusCode());
   });
