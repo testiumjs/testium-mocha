@@ -1,4 +1,4 @@
-import { browser } from '../';
+import { browser } from '../../';
 
 describe('testium-mocha - the basics', () => {
   before(browser.beforeHook());
