@@ -10,7 +10,7 @@ describe('forced screenshot', () => {
     assert.equal('statuscode', 418, browser.getStatusCode());
   });
 
-  it('some !%#(*.>:; sPecial  chars', () => {
+  it('some !%#__(*.>:; sPecial  chars', () => {
     browser.navigateTo('/');
     // Supposed to be failing as well, actual text is "only one here"
     browser.assert.elementHasText('.only', 'not on the page');
