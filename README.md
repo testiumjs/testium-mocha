@@ -1,4 +1,4 @@
-# Testium: Mocha
+# Testium: Mocha [![Build Status](https://travis-ci.org/testiumjs/testium-mocha.svg?branch=master)](https://travis-ci.org/testiumjs/testium-mocha)
 
 Testium integration for [mocha](https://mochajs.org/).
 
