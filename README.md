@@ -6,6 +6,11 @@ Testium integration for [mocha](https://mochajs.org/).
 * Can launch your app, selenium/phantomjs for you
 * Automatically takes screenshots on failure
 
+This project is a safe and inclusive place
+for contributors of all kinds.
+See the [Code of Conduct](CODE_OF_CONDUCT.md)
+for details.
+
 ## Install
 
 ```bash
