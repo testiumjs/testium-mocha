@@ -2,6 +2,11 @@ import { browser } from '../../';
 import assert from 'assertive';
 
 describe('forced screenshot', () => {
+  if (!process.env.testium_logDirectory) {
+    xit('this is ran via test/screenshots.test.js');
+    return;
+  }
+
   before(browser.beforeHook());
 
   it('my test', () => {

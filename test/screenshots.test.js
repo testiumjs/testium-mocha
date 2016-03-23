@@ -20,7 +20,7 @@ describe('screenshots', () => {
 
   before('run failing test suite', function runFailingSuite(done) {
     this.timeout(10000);
-    const mocha = execFile('./node_modules/.bin/mocha', [ TEST_FILE ], {
+    const mocha = execFile('./node_modules/.bin/mocha', [TEST_FILE], {
       env: extend(ENV_OVERRIDES, process.env),
     }, (err, stdout, stderr) => {
       try {
