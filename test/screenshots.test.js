@@ -7,7 +7,7 @@ import { extend } from 'lodash';
 
 const LOG_DIRECTORY = `${__dirname}/screenshot_integration_log`;
 const SCREENSHOT_DIRECTORY = `${__dirname}/screenshot_integration_log/screenshots`;
-const TEST_FILE = 'test/screenshot_integration/force_screenshot.test.js';
+const TEST_FILE = 'test/screenshots.failing';
 
 const ENV_OVERRIDES = {
   testium_logDirectory: LOG_DIRECTORY,
@@ -20,7 +20,7 @@ describe('screenshots', () => {
 
   before('run failing test suite', function runFailingSuite(done) {
     this.timeout(10000);
-    const mocha = execFile('./node_modules/.bin/mocha', [ TEST_FILE ], {
+    const mocha = execFile('./node_modules/.bin/mocha', [TEST_FILE], {
       env: extend(ENV_OVERRIDES, process.env),
     }, (err, stdout, stderr) => {
       try {

@@ -1,4 +1,4 @@
-import { browser } from '../../';
+import { browser } from '../';
 import assert from 'assertive';
 
 describe('forced screenshot', () => {
