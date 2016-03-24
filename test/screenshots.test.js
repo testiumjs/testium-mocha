@@ -7,7 +7,7 @@ import { extend } from 'lodash';
 
 const LOG_DIRECTORY = `${__dirname}/screenshot_integration_log`;
 const SCREENSHOT_DIRECTORY = `${__dirname}/screenshot_integration_log/screenshots`;
-const TEST_FILE = 'test/screenshot_integration/force_screenshot.test.js';
+const TEST_FILE = 'test/screenshots.failing';
 
 const ENV_OVERRIDES = {
   testium_logDirectory: LOG_DIRECTORY,
