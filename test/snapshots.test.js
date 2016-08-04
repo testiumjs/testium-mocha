@@ -5,16 +5,16 @@ import assert from 'assertive';
 import rimraf from 'rimraf';
 import { extend } from 'lodash';
 
-const LOG_DIRECTORY = `${__dirname}/screenshot_integration_log`;
-const SCREENSHOT_DIRECTORY = `${__dirname}/screenshot_integration_log/screenshots`;
-const TEST_FILE = 'test/screenshots.failing';
+const LOG_DIRECTORY = `${__dirname}/snapshot_integration_log`;
+const SNAPSHOT_DIRECTORY = `${__dirname}/snapshot_integration_log/snapshots`;
+const TEST_FILE = 'test/snapshots.failing';
 
 const ENV_OVERRIDES = {
   testium_logDirectory: LOG_DIRECTORY,
-  testium_screenshotDirectory: SCREENSHOT_DIRECTORY,
+  testium_snapshotDirectory: SNAPSHOT_DIRECTORY,
 };
 
-describe('screenshots', () => {
+describe('snapshots', () => {
   before(`rm -rf ${LOG_DIRECTORY}`, done =>
     rimraf(LOG_DIRECTORY, done));
 
@@ -36,15 +36,17 @@ describe('screenshots', () => {
   });
 
   let files;
-  before(`readdir ${SCREENSHOT_DIRECTORY}`, () => {
-    files = fs.readdirSync(SCREENSHOT_DIRECTORY);
+  before(`readdir ${SNAPSHOT_DIRECTORY}`, () => {
+    files = fs.readdirSync(SNAPSHOT_DIRECTORY);
     files.sort();
   });
 
-  it('creates two screenshots', () => {
+  it('creates two snapshots', () => {
     assert.deepEqual([
-      'forced_screenshot_my_test.png',
-      'forced_screenshot_some_sPecial_chars.png',
+      'forced_snapshot_my_test.html',
+      'forced_snapshot_my_test.png',
+      'forced_snapshot_some_sPecial_chars.html',
+      'forced_snapshot_some_sPecial_chars.png',
     ], files);
   });
 });
