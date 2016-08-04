@@ -1,3 +1,9 @@
+### 1.1.0
+
+* feat: save page html on failure w/ screenshot - **[@dbushong](https://github.com/dbushong)** [#8](https://github.com/testiumjs/testium-mocha/pull/8)
+  - [`5dc8bfc`](https://github.com/testiumjs/testium-mocha/commit/5dc8bfc8ca2ed578b649216cceb9277b6d32ed0a) **feat:** save page html on failure w/ screenshot
+
+
 ### 1.0.3
 
 * Apply latest nlm generator - **[@i-tier-bot](https://github.com/i-tier-bot)** [#7](https://github.com/testiumjs/testium-mocha/pull/7)
