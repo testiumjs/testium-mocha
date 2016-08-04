@@ -4,7 +4,7 @@ Testium integration for [mocha](https://mochajs.org/).
 
 * Minimal footprint, just add one `before` hook
 * Can launch your app, selenium/phantomjs for you
-* Automatically takes screenshots on failure
+* Automatically takes snapshots of screen & html source on failure
 
 This project is a safe and inclusive place
 for contributors of all kinds.

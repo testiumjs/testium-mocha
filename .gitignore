@@ -3,4 +3,4 @@ node_modules/
 npm-debug.log
 test/tmp
 test/log
-test/screenshot_integration_log
+test/snapshot_integration_log

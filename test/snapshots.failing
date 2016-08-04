@@ -1,7 +1,7 @@
 import { browser } from '../';
 import assert from 'assertive';
 
-describe('forced screenshot', () => {
+describe('forced snapshot', () => {
   before(browser.beforeHook());
 
   it('my test', () => {
@@ -19,6 +19,6 @@ describe('forced screenshot', () => {
   it('does not fail', () => {
     // empty test should never fail
     // This makes sure that when everything is fine we do not take
-    // screenshots
+    // snapshots
   });
 });
