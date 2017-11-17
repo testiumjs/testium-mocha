@@ -1,4 +1,6 @@
-import { browser } from '../../';
+'use strict';
+
+const browser = require('../../').browser;
 
 describe('testium-mocha - the basics', () => {
   before(browser.beforeHook());
