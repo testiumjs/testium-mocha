@@ -1,3 +1,17 @@
+### 2.0.0
+
+#### Breaking Changes
+
+Node < 4.x no longer supported
+
+*See: [`3645d4d`](https://github.com/testiumjs/testium-mocha/commit/3645d4dbcec21408629bde3af49220b617f86c7d)*
+
+#### Commits
+
+* re-run generator, use node4 native code - **[@dbushong](https://github.com/dbushong)** [#11](https://github.com/testiumjs/testium-mocha/pull/11)
+  - [`3645d4d`](https://github.com/testiumjs/testium-mocha/commit/3645d4dbcec21408629bde3af49220b617f86c7d) **chore:** re-run generator, use node4 native code
+
+
 ### 1.1.0
 
 * feat: save page html on failure w/ screenshot - **[@dbushong](https://github.com/dbushong)** [#8](https://github.com/testiumjs/testium-mocha/pull/8)
