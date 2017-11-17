@@ -1,5 +1,7 @@
-import { browser } from '../';
-import assert from 'assertive';
+'use strict';
+
+const browser = require('../').browser;
+const assert = require('assertive');
 
 describe('forced snapshot', () => {
   before(browser.beforeHook());
