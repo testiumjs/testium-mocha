@@ -1,0 +1,8 @@
+driver = wd
+launch = true
+
+[app]
+command = node ./node_modules/testium-example-app/server.js
+
+[proxy]
+port = 0

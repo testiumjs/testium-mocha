@@ -43,7 +43,8 @@
     "nlm": "^3.0.0",
     "prettier": "^1.6.1",
     "rimraf": "^2.4.3",
-    "testium-driver-sync": "^2.0.0"
+    "testium-driver-wd": "^1.9.1",
+    "testium-example-app": "^2.1.1"
   },
   "author": {
     "name": "Groupon",

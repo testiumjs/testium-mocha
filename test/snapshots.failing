@@ -6,17 +6,15 @@ const assert = require('assertive');
 describe('forced snapshot', () => {
   before(browser.beforeHook());
 
-  it('my test', () => {
-    browser.navigateTo('/');
+  it('my test', () =>
     // This is supposed to be failing, the real status code is 200
-    assert.equal('statuscode', 418, browser.getStatusCode());
-  });
+    browser.loadPage('/', { expectedStatusCode: 418 }));
 
-  it('some !%#__(*.>:; sPecial  chars', () => {
-    browser.navigateTo('/');
+  it('some !%#__(*.>:; sPecial  chars', () =>
     // Supposed to be failing as well, actual text is "only one here"
-    browser.assert.elementHasText('.only', 'not on the page');
-  });
+    browser
+      .loadPage('/')
+      .assertElementHasText('.only', 'not on the page'));
 
   it('does not fail', () => {
     // empty test should never fail
