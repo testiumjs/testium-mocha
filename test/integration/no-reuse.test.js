@@ -6,7 +6,7 @@ describe('reuseSession = false', () => {
   describe('first test', () => {
     before(browser.beforeHook({ reuseSession: false }));
 
-    it('does some stuff', () => browser.navigateTo('/index.html'));
+    it('does some stuff', () => browser.loadPage('/index.html'));
   });
 
   describe('second test', () => {
@@ -16,6 +16,6 @@ describe('reuseSession = false', () => {
     // it had enough time to do so.
     before(done => setTimeout(done, 500));
 
-    it('keeps doing stuff', () => browser.navigateTo('/index.html'));
+    it('keeps doing stuff', () => browser.loadPage('/index.html'));
   });
 });

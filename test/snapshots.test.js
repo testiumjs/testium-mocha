@@ -34,7 +34,7 @@ describe('snapshots', () => {
         } catch (exitCodeError) {
           console.log(
             'Error: %s\nstdout: %s\nstderr: %s',
-            err.stack,
+            err && err.stack,
             stdout,
             stderr
           );
