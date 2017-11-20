@@ -1,3 +1,10 @@
+### 2.1.0
+
+* supply browser.currentTest property - **[@dbushong](https://github.com/dbushong)** [#12](https://github.com/testiumjs/testium-mocha/pull/12)
+  - [`76c1fa7`](https://github.com/testiumjs/testium-mocha/commit/76c1fa75d3b34b9fb8fa80eed7fb894505c0013e) **feat:** supply browser.currentTest property
+  - [`377ddb0`](https://github.com/testiumjs/testium-mocha/commit/377ddb093848bb19daaf542e998daf2dc4372b10) **chore:** use testium-driver-wd for tests
+
+
 ### 2.0.0
 
 #### Breaking Changes
