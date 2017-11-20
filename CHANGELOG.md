@@ -1,3 +1,9 @@
+### 2.1.1
+
+* set currentTest on testium.browser - **[@dbushong](https://github.com/dbushong)** [#13](https://github.com/testiumjs/testium-mocha/pull/13)
+  - [`68d6459`](https://github.com/testiumjs/testium-mocha/commit/68d64597df52d15416cfec969239eed229319ae6) **fix:** set currentTest on testium.browser
+
+
 ### 2.1.0
 
 * supply browser.currentTest property - **[@dbushong](https://github.com/dbushong)** [#12](https://github.com/testiumjs/testium-mocha/pull/12)
