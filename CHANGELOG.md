@@ -1,3 +1,22 @@
+### 3.0.0
+
+#### Breaking Changes
+
+now requires node 6+
+
+*See: [`de37d8d`](https://github.com/testiumjs/testium-mocha/commit/de37d8d841fc02440e39cf8d0c83960a79d7e268)*
+
+#### Commits
+
+* close testium processes upon test completion - **[@dbushong](https://github.com/dbushong)** [#14](https://github.com/testiumjs/testium-mocha/pull/14)
+  - [`33ad991`](https://github.com/testiumjs/testium-mocha/commit/33ad99180a05ed18ed7f18889d0e76724de28bfe) **fix:** close testium processes on test completion
+  - [`efc1001`](https://github.com/testiumjs/testium-mocha/commit/efc10014ace3e0b4d87971d6a3dfceabf9d599ff) **chore:** stop using lodash
+  - [`6fd8b86`](https://github.com/testiumjs/testium-mocha/commit/6fd8b861ceedf6742d6b878fd7d68e8863cbe88b) **chore:** upgrade assertive devDep
+  - [`de37d8d`](https://github.com/testiumjs/testium-mocha/commit/de37d8d841fc02440e39cf8d0c83960a79d7e268) **chore:** upgrade lint & other rules
+  - [`17836a8`](https://github.com/testiumjs/testium-mocha/commit/17836a82ec720e470b94cac8dc21c1923bbf011d) **chore:** upgrade versions for `npm audit`
+  - [`abd40ac`](https://github.com/testiumjs/testium-mocha/commit/abd40ac4de72f0f1021ad0ce507696e18b47f6d1) **chore:** make sure travis is using npm6
+
+
 ### 2.1.1
 
 * set currentTest on testium.browser - **[@dbushong](https://github.com/dbushong)** [#13](https://github.com/testiumjs/testium-mocha/pull/13)
