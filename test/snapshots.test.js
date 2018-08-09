@@ -17,7 +17,9 @@ const ENV_OVERRIDES = {
 };
 
 describe('snapshots', () => {
-  before(`rm -rf ${LOG_DIRECTORY}`, done => rimraf(LOG_DIRECTORY, done));
+  before(`rm -rf ${LOG_DIRECTORY}`, done => {
+    rimraf(LOG_DIRECTORY, done);
+  });
 
   before('run failing test suite', function runFailingSuite(done) {
     this.timeout(10000);
@@ -32,6 +34,7 @@ describe('snapshots', () => {
           assert.equal(2, mocha.exitCode);
           done();
         } catch (exitCodeError) {
+          // eslint-disable-next-line no-console
           console.log(
             'Error: %s\nstdout: %s\nstderr: %s',
             err && err.stack,
