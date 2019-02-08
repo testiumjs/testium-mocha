@@ -1,3 +1,10 @@
+### 3.0.1
+
+* Npm update testium core - **[@amkirwan](https://github.com/amkirwan)** [#15](https://github.com/testiumjs/testium-mocha/pull/15)
+  - [`16091ac`](https://github.com/testiumjs/testium-mocha/commit/16091ac05248642440c813cf8182257502692a13) **chore:** npm audit security fixes
+  - [`79b68d4`](https://github.com/testiumjs/testium-mocha/commit/79b68d4404da4b0573f33f9f7f41ee2fbe27b814) **chore:** update testium-core@1.11.0
+
+
 ### 3.0.0
 
 #### Breaking Changes
