@@ -1,3 +1,9 @@
+### 3.0.2
+
+* chore: bump testium-core@1.12.0 - **[@amkirwan](https://github.com/amkirwan)** [#16](https://github.com/testiumjs/testium-mocha/pull/16)
+  - [`e6b6a61`](https://github.com/testiumjs/testium-mocha/commit/e6b6a61481f9ad6fdfa3b1782f435ba661339dc6) **chore:** bump testium-core@1.12.0
+
+
 ### 3.0.1
 
 * Npm update testium core - **[@amkirwan](https://github.com/amkirwan)** [#15](https://github.com/testiumjs/testium-mocha/pull/15)
