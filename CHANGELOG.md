@@ -1,3 +1,18 @@
+### 4.0.0
+
+#### Breaking Changes
+
+Now `wd` driver is used by default
+
+*See: [`a62621e`](https://github.com/testiumjs/testium-mocha/commit/a62621eaa5a0756e7f57539ee6a1d6091ecc88aa)*
+
+#### Commits
+
+* testium core upgrade - **[@aotarola](https://github.com/aotarola)** [#17](https://github.com/testiumjs/testium-mocha/pull/17)
+  - [`a62621e`](https://github.com/testiumjs/testium-mocha/commit/a62621eaa5a0756e7f57539ee6a1d6091ecc88aa) **chore:** major bump testium-core
+  - [`ea04872`](https://github.com/testiumjs/testium-mocha/commit/ea048726d9fe9c254042d229ecd66362a425f73a) **chore:** npm audit fix
+
+
 ### 3.0.2
 
 * chore: bump testium-core@1.12.0 - **[@amkirwan](https://github.com/amkirwan)** [#16](https://github.com/testiumjs/testium-mocha/pull/16)
