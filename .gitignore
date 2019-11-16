@@ -5,3 +5,4 @@ npm-debug.log
 test/tmp
 test/log
 test/snapshot_integration_log
+/target
