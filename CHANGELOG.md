@@ -1,3 +1,20 @@
+### 5.0.0
+
+#### Breaking Changes
+
+now requires node 8+, defaults to driver=wd
+
+*See: [`cb0d3a4`](https://github.com/testiumjs/testium-mocha/commit/cb0d3a47af4a1c3132dbe7bc6574382bb2daf586)*
+
+#### Commits
+
+* bump testium-core - **[@dbushong](https://github.com/dbushong)** [#18](https://github.com/testiumjs/testium-mocha/pull/18)
+  - [`cb0d3a4`](https://github.com/testiumjs/testium-mocha/commit/cb0d3a47af4a1c3132dbe7bc6574382bb2daf586) **chore:** major bump testium-core
+  - [`2f359b5`](https://github.com/testiumjs/testium-mocha/commit/2f359b5d6449ff9c56bccbf082e2e097d84ba15c) **chore:** npm audit fix
+  - [`a627d1c`](https://github.com/testiumjs/testium-mocha/commit/a627d1c7df22084c99458d722057986da9dd37fb) **chore:** update devDeps
+  - [`0468666`](https://github.com/testiumjs/testium-mocha/commit/0468666137494c9e3d4993d9617f94d54e297620) **fix:** use Buffer.from()
+
+
 ### 4.0.0
 
 #### Breaking Changes
