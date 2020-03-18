@@ -1,3 +1,9 @@
+### 5.0.1
+
+* chore(deps): bump acorn from 7.1.0 to 7.1.1 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#19](https://github.com/testiumjs/testium-mocha/pull/19)
+  - [`dd62678`](https://github.com/testiumjs/testium-mocha/commit/dd626783499927f3910996207b8e417fd0ca3f13) **chore:** bump acorn from 7.1.0 to 7.1.1 - see: [7](- [Commits](https://github.com/acornjs/acorn/compare/7)
+
+
 ### 5.0.0
 
 #### Breaking Changes
