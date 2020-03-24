@@ -14,20 +14,20 @@ for details.
 ## Install
 
 ```bash
-npm install --save-dev testium-mocha testium-driver-sync
+npm install --save-dev testium-mocha testium-driver-wd
 ```
 
 ## Usage
 
 ```js
 // test/my-test.js
-var browser = require('testium-mocha').browser;
+const { browser } = require('testium-mocha');
 
-describe('testium-mocha - the basics', function() {
+describe('testium-mocha - the basics', () => {
   before(browser.beforeHook());
 
-  it('can load a page', function() {
-    browser.navigateTo('/index.html');
+  it('can load a page', () => {
+    return browser.loadPage('/index.html');
   });
 });
 ```
