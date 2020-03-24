@@ -1,11 +1,10 @@
 'use strict';
 
 const fs = require('fs');
-const execFile = require('child_process').execFile;
+const { execFile } = require('child_process');
 
 const assert = require('assertive');
 const rimraf = require('rimraf');
-const extend = require('lodash/extend');
 
 const LOG_DIRECTORY = `${__dirname}/snapshot_integration_log`;
 const SNAPSHOT_DIRECTORY = `${__dirname}/snapshot_integration_log/snapshots`;
@@ -26,9 +25,7 @@ describe('snapshots', () => {
     const mocha = execFile(
       './node_modules/.bin/mocha',
       [TEST_FILE],
-      {
-        env: extend(ENV_OVERRIDES, process.env),
-      },
+      { env: { ...ENV_OVERRIDES, ...process.env } },
       (err, stdout, stderr) => {
         try {
           assert.equal(2, mocha.exitCode);
