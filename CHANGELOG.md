@@ -1,3 +1,9 @@
+### 5.0.2
+
+* chore(deps-dev): bump lodash from 4.17.15 to 4.17.19 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#21](https://github.com/testiumjs/testium-mocha/pull/21)
+  - [`b462e83`](https://github.com/testiumjs/testium-mocha/commit/b462e8393cfef28af7f9fdbb95d319aad1ad09b9) **chore:** bump lodash from 4.17.15 to 4.17.19 - see: [4](- [Commits](https://github.com/lodash/lodash/compare/4)
+
+
 ### 5.0.1
 
 * chore(deps): bump acorn from 7.1.0 to 7.1.1 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#19](https://github.com/testiumjs/testium-mocha/pull/19)
