@@ -1,3 +1,9 @@
+### 5.0.3
+
+* chore(deps): bump ini from 1.3.5 to 1.3.7 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#22](https://github.com/testiumjs/testium-mocha/pull/22)
+  - [`2c1ce80`](https://github.com/testiumjs/testium-mocha/commit/2c1ce80d7bc2f68280c6af99b2021c80b2b5c16f) **chore:** bump ini from 1.3.5 to 1.3.7 - see: [v1](- [Commits](https://github.com/isaacs/ini/compare/v1)
+
+
 ### 5.0.2
 
 * chore(deps-dev): bump lodash from 4.17.15 to 4.17.19 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#21](https://github.com/testiumjs/testium-mocha/pull/21)
