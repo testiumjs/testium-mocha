@@ -1,3 +1,9 @@
+### 5.0.4
+
+* chore(deps): bump dot-prop from 4.2.0 to 4.2.1 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#23](https://github.com/testiumjs/testium-mocha/pull/23)
+  - [`f54e375`](https://github.com/testiumjs/testium-mocha/commit/f54e375609599e5b576b323d85b63c351ac34141) **chore:** bump dot-prop from 4.2.0 to 4.2.1
+
+
 ### 5.0.3
 
 * chore(deps): bump ini from 1.3.5 to 1.3.7 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#22](https://github.com/testiumjs/testium-mocha/pull/22)
