@@ -1,3 +1,10 @@
+### v5.0.5 (2022-02-11)
+<a id="v5.0.5"></a>
+#### 🏡 Internal
+
+* [#30](https://github.com/testiumjs/testium-mocha/pull/30) upgrade deps & switch to GH actions ([@dbushong](https://github.com/dbushong))
+
+
 ### 5.0.4
 
 * chore(deps): bump dot-prop from 4.2.0 to 4.2.1 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#23](https://github.com/testiumjs/testium-mocha/pull/23)
