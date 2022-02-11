@@ -1,3 +1,10 @@
+### v5.0.6 (2022-02-11)
+<a id="v5.0.6"></a>
+#### 🏡 Internal
+
+* [#31](https://github.com/testiumjs/testium-mocha/pull/31) switch to main branch ([@dbushong](https://github.com/dbushong))
+
+
 ### v5.0.5 (2022-02-11)
 <a id="v5.0.5"></a>
 #### 🏡 Internal
