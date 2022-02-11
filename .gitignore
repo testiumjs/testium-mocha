@@ -6,3 +6,5 @@ test/tmp
 test/log
 test/snapshot_integration_log
 /target
+grpn-create.log
+/coverage
