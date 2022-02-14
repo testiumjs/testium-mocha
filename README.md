@@ -1,7 +1,7 @@
 [![nlm-chat](https://img.shields.io/badge/chat-http%3A%2F%2Fsignup.testiumjs.com%2F-F4D03F?logo=chat&logoColor=white)](http://signup.testiumjs.com/)
 [![nlm-github](https://img.shields.io/badge/github-testiumjs%2Ftestium--mocha%2Fissues-F4D03F?logo=github&logoColor=white)](https://github.com/testiumjs/testium-mocha/issues)
 ![nlm-node](https://img.shields.io/badge/node-%3E%3D8.3.0-blue?logo=node.js&logoColor=white)
-![nlm-version](https://img.shields.io/badge/version-5.0.6-blue?logo=version&logoColor=white)
+![nlm-version](https://img.shields.io/badge/version-5.0.7-blue?logo=version&logoColor=white)
 # Testium: Mocha [![Build Status](https://travis-ci.org/testiumjs/testium-mocha.svg?branch=master)](https://travis-ci.org/testiumjs/testium-mocha)
 
 Testium integration for [mocha](https://mochajs.org/).

@@ -1,6 +1,6 @@
 {
   "name": "testium-mocha",
-  "version": "5.0.6",
+  "version": "5.0.7",
   "description": "Mocha integration for testium",
   "license": "BSD-3-Clause",
   "main": "lib/testium-mocha.js",

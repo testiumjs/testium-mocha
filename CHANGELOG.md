@@ -1,3 +1,10 @@
+### v5.0.7 (2022-02-14)
+<a id="v5.0.7"></a>
+#### 🏡 Internal
+
+* [#32](https://github.com/testiumjs/testium-mocha/pull/32) audit fix upgrades ([@dbushong](https://github.com/dbushong))
+
+
 ### v5.0.6 (2022-02-11)
 <a id="v5.0.6"></a>
 #### 🏡 Internal
